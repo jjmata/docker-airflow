@@ -14,7 +14,7 @@ ENV TERM linux
 # Airflow
 ARG AIRFLOW_VERSION=1.10.2
 ARG AIRFLOW_HOME=/usr/local/airflow
-ARG AIRFLOW_DEPS="slack"
+ARG AIRFLOW_DEPS="async,google_auth,s3,slack"
 ARG PYTHON_DEPS="docker"
 ENV AIRFLOW_GPL_UNIDECODE yes
 
